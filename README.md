@@ -1,37 +1,98 @@
-## Aula Prática 
+<! DOCTYPE html >
+< html  lang = " pt-br " >
 
-You can use the [editor on GitHub](https://github.com/Cleber-ds/Trabalho-Cruzeiro-do-Sul/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+< cabeça >
+    < meta  charset = " UTF-8 " >
+    < meta  name = " viewport " content = " width = largura do dispositivo, escala inicial = 1.0 " >
+    < link  rel = " folha de estilo " href = " assets / css / normalize.css " >
+    < link  rel = " stylesheet " href = " assets / css / style.css " >
+    < link  href = " https://fonts.googleapis.com/css?family=Roboto&display=swap " rel = " folha de estilo " >
+    < title > Documento </ title >
+</ cabeça >
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+< corpo >
+    < header  class = " nav-container " >
 
-### Markdown
+        < img  class = " fb-logo " src = " assets / img / facebook.png " alt = " facebook logo " >
+        < form  action = " # " >
+            < input  class = " barra-busca " type = " text " espaço reservado = " Pesquisar " >
+            < input  class = " btn-buscar " type = " submit " value = " Buscar " />
+        </ form >
+        < div  class = " perfil-conteudo " >
+            < A  href = " # " >  < img  src =" assets / img / pp.jfif " alt =" foto perfil " class =" FT-perfil-pequeno " > </ a >
+            < A  class = " link-nomo " href =" # " > Deusimar Moraes </ a >
+            < A  href = " # " > < img  class =" icones-Sociais " src =" assets / img / adcionar.svg " alt =" icone solicitação amizade " > </ a >
+            < A  href = " # " > < img  class =" icones-Sociais " src =" assets / img / mensagem.svg " alt =" Mensagens icone " > </ a >
+            < A  href = " # " >  < img  class =" icones-Sociais " src =" assets / img / world.png " alt =" notificações icone " > </ a >
+        </ div >
+    </ header >
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    < div  class = " container-principal " >
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+        < section  class = " container-info " >
+            < img  class = " foto-perfil-grande " src = " patrimônio / img / pp.jfif " alt = " foto-perfil " >
+            < nav  class = " links-nav " >
+                < ul >
+                    < li >
+                        < A  href = " # " > Início </ a >
+                    </ li >
+                    < li >
+                        < A  href = " # " > Perfil </ a >
+                    </ li >
+                    < li >
+                        < A  href = " # " > Amigos </ a >
+                    </ li >
+                    < li >
+                        < A  href = " # " > Sair </ a >
+                    </ li >
+                </ ul >
+            </ nav >
+        </ seção >
+        < div  class = " container-info-feed " >
+            < h1 > Notícias < h1 >
+        < section  class = " feed de contêiner " >
+            < div  class = " feed " >
+                    < artigo >
+                        < img  src = " assets / img / post.png " alt = " logo-post " >
+                        < time  class = " data-post " > 05-02-2020 </ time >
+                        < autor  class = " autor-post " > Lorem Ipsum </ autor >
+                        < blockquote  class = " post " > Lorem Ipsum é simplesmente texto fictício da impressão e composição tipográfica
+                                indústria. Lorem Ipsum é o texto fictício padrão do setor desde os anos 1500,
+                        </ blockquote >
+                    </ artigo >
+            </ div >
+        </ seção >
+        < section  class = " feed de contêiner " >
+            < div  class = " feed " >
+                < artigo >
+                    < img  src = " assets / img / post.png " alt = " logo-post " >
+                    < time  class = " data-post " > 05-02-2020 </ time >
+                    < autor  class = " autor-post " > Lorem Ipsum </ autor >
+                    < blockquote  class = " post " > Lorem Ipsum é simplesmente texto fictício da impressão e composição tipográfica
+                                indústria. Lorem Ipsum é o texto fictício padrão do setor desde os anos 1500,
+                    </ blockquote >
+                </ artigo >
+            </ div >
+        </ seção >
+        < section  class = " feed de contêiner " >
+            < div  class = " feed " >
+                < artigo >
+                    < img  src = " assets / img / post.png " alt = " logo-post " >
+                    < time  class = " data-post " > 05-02-2020 </ time >
+                    < autor  class = " autor-post " > Lorem Ipsum </ autor >
+                    < blockquote  class = " post " > Lorem Ipsum é simplesmente texto fictício da impressão e composição tipográfica
+                                indústria. Lorem Ipsum é o texto fictício padrão do setor desde os anos 1500,
+                    </ blockquote >
+                </ artigo >
+            </ div >
+        </ seção >
 
-- Bulleted
-- List
+    </ div >
+    
+    
+    
+</ div >
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Cleber-ds/Trabalho-Cruzeiro-do-Sul/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</ corpo >
+</ html >
